@@ -11,6 +11,7 @@ namespace Exe4_135
         private string[] dimas;
         private int top;
         private int max;
+        private string val;
         public Stacks()
         {
             dimas = new string[26];
@@ -20,7 +21,7 @@ namespace Exe4_135
 
         public void push()
         {
-            string val;
+            
             if (top == max - 1)
             {
                 Console.WriteLine("\n Stack Full!");
@@ -43,6 +44,7 @@ namespace Exe4_135
             }
             else
             {
+                dimas[top] = val;
                 top = top - 1;
                 
                 Console.WriteLine("Data Popped!");
