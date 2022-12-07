@@ -37,18 +37,6 @@ namespace Exe4_135
             }
         }
 
-        public void pop()
-        {
-            if (top == -1)
-            {
-                Console.WriteLine("Stack Empty!");
-            }
-            else
-            {
-                top = top - 1;
-                Console.WriteLine("Data Popped!");
-            }
-        }
 
         public void display()
         {
