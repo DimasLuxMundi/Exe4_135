@@ -52,7 +52,7 @@ namespace Exe4_135
 
         public void display()
         {
-            for (int i = top; i <= 0; i--)
+            for (int i = top; i >= 0; i--)
             {
                 Console.Write(dimas[i]);
             }
