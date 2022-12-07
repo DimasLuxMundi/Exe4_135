@@ -11,7 +11,6 @@ namespace Exe4_135
         private string[] dimas;
         private int top;
         private int max;
-        private int n;
         public Stacks()
         {
             dimas = new string[26];
@@ -45,6 +44,7 @@ namespace Exe4_135
             else
             {
                 top = top - 1;
+                
                 Console.WriteLine("Data Popped!");
             }
         }
