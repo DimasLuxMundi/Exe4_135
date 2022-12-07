@@ -36,6 +36,18 @@ namespace Exe4_135
 
             }
         }
+        public void pop()
+        {
+            if (top == -1)
+            {
+                Console.WriteLine("Stack Empty!");
+            }
+            else
+            {
+                top = top - 1;
+                Console.WriteLine("Data Popped!");
+            }
+        }
 
 
         public void display()
@@ -64,6 +76,7 @@ namespace Exe4_135
                 Console.Write("\nEnter Your Choice: ");
                 string sInput = Console.ReadLine();
                 char ch = Convert.ToChar(sInput == "" ? "0" : sInput);
+
 
             }
         }
