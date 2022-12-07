@@ -52,6 +52,7 @@ namespace Exe4_135
 
         static void Main(string[] args)
         {
+            Stacks s = new Stacks();
         }
     }
 }
