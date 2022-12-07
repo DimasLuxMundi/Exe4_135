@@ -8,20 +8,20 @@ namespace Exe4_135
 {
     class Stacks
     {
-        private char[] dimas;
+        private string[] dimas;
         private int top;
         private int max;
         private int n;
         public Stacks()
         {
-            dimas = new char[26];
+            dimas = new string[26];
             top = -1;
             max = 26;
         }
 
         public void push()
         {
-            char val;
+            string val;
             if (top == max - 1)
             {
                 Console.WriteLine("\n Stack Full!");
@@ -29,7 +29,7 @@ namespace Exe4_135
             else
             {
                 Console.WriteLine("Enter a Data: ");
-                val = Convert.ToChar(Console.ReadLine());
+                val = Console.ReadLine();
                 top = top + 1;
                 dimas[top] = val;
                 Console.WriteLine("Data Pushed");
