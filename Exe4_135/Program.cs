@@ -54,9 +54,10 @@ namespace Exe4_135
 
         public void display()
         {
+            Console.WriteLine("Data in The Stack are: ");
             for (int i = top; i >= 0; i--)
             {
-                Console.Write(dimas[i]);
+                Console.WriteLine(dimas[i]);
             }
             if (top == -1)
             {
