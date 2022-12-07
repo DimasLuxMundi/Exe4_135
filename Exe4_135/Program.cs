@@ -61,6 +61,10 @@ namespace Exe4_135
                 Console.WriteLine("2. Pop.");
                 Console.WriteLine("3. Display");
                 Console.WriteLine("4. Exit.");
+                Console.Write("\nEnter Your Choice: ");
+                string sInput = Console.ReadLine();
+                char ch = Convert.ToChar(sInput == "" ? "0" : sInput);
+
             }
         }
     }
