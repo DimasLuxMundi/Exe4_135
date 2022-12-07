@@ -44,6 +44,10 @@ namespace Exe4_135
             {
                 Console.Write(dimas[i]);
             }
+            if (top == -1)
+            {
+                Console.WriteLine("Stack is Empty!");
+            }
         }
 
         static void Main(string[] args)
